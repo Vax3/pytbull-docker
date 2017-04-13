@@ -25,7 +25,7 @@ There are basically 5 types of tests:
 - client side attacks: use a reverse shell on the remote target and send commands to it to make them processed by the server (typically wget commands).
 
 For launch the container type the following command:
-* docker run -ti --network <network_with_idps> -e SFTP_LOGIN=<ftp_login> -e SFTP_PASSWORD=<ftp_password>  pytbull <IP.OF.YOUR.IDPS>
+* docker run -ti --network <network_with_idps> -e SFTP_LOGIN=<ftp_login> -e SFTP_PASSWORD=<ftp_password>  vax3pytbull <IP.OF.YOUR.IDPS>
 
 For testing your IDPS, you must:
 * install vsftpd openssh-server and apache2 on your IDPS server and launch them
